@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="tema-05-funciones" Database="" Version="10.0.0">
+  <Project Name="01-escaques" Path="escaques/escaques.project" Active="No"/>
+  <Project Name="02-tablas-solo-main" Path="tablas-solo-main/tablas-solo-main.project" Active="No"/>
+  <Project Name="03-tablas-modular" Path="tablas-modular/tablas-modular.project" Active="No"/>
+  <Project Name="04-comunicacion-parametros" Path="comunicacion-parametros/comunicacion-parametros.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="01-escaques" ConfigName="Debug"/>
+      <Project Name="02-tablas-solo-main" ConfigName="Debug"/>
+      <Project Name="03-tablas-modular" ConfigName="Debug"/>
+      <Project Name="04-comunicacion-parametros" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="01-escaques" ConfigName="Release"/>
+      <Project Name="02-tablas-solo-main" ConfigName="Release"/>
+      <Project Name="03-tablas-modular" ConfigName="Release"/>
+      <Project Name="04-comunicacion-parametros" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
