@@ -1,10 +1,12 @@
 /*
  * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 7 de octubre de 2019
- * Resumen: Programa interactivo que presenta por pantalla las tablas de multiplicar seleccionadas por el usuario.   
- *          Versión monolítica (todo el código está en la función main). Es una mejor solución la presentada en el
- *          proyecto «tablas-modular».
+ * Última revisión: 9 de octubre de 2020
+ * Resumen: Programa interactivo que presenta por pantalla las tablas de 
+ *          multiplicar seleccionadas por el usuario.   
+ *          Versión monolítica (todo el código está en la función main).
+ *          Es una mejor solución la presentada en el fichero
+ *          «3-tablas-modular.cpp».
  */
 #include <iostream>
 #include <iomanip>
@@ -32,7 +34,7 @@ int main() {
         cout << "LA TABLA DEL " << multiplicando << endl;
 
         // Escribe las 11 líneas de la tabla de multiplicar del «multiplicando»
-        for (int i = 0; i <= 10; ++i) {
+        for (unsigned int i = 0; i <= 10; ++i) {
             cout << setw(3) << multiplicando
                  << " x " << setw(2) << i
                  << " = " << setw(3) << multiplicando * i
