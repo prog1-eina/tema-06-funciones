@@ -24,13 +24,13 @@ const int FIN = 0;
  *        «n» x  9 = ...
  *        «n» x 10 = ...
  */
-void presentarTabla(int n) {
+void presentarTabla(unsigned n) {
     // Escribe la cabecera de la tabla de multiplicar del «n»
     cout << endl;
     cout << "LA TABLA DEL " << n << endl;
 
     // Escribe las 11 líneas de la tabla de multiplicar del «n»
-    unsigned int i = 0;
+    unsigned i = 0;
     while (i <= 10) {
         cout << setw(3) << n
              << " x " << setw(2) << i
@@ -50,7 +50,7 @@ int main() {
     cout << "¿Qué tabla desea escribir (" << FIN << " para acabar)?: ";
 
     // Asigna a «multiplicando» el primer valor entero escrito por el usuario
-    int multiplicando;
+    unsigned multiplicando;
     cin  >>  multiplicando;
 
     // Itera hasta que el usuario responda con un valor nulo

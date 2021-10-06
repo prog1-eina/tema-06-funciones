@@ -16,7 +16,7 @@ using namespace std;
  * «numLados» tiene que ser mayor o igual que 3 y
  * «longitud» mayor que 0.0.
  */
-double perimetro(unsigned int numLados, double longitud) {
+double perimetro(unsigned numLados, double longitud) {
     return numLados * longitud;
 }
 
@@ -28,7 +28,7 @@ int main() {
     double triangulo = perimetro(3, 1.5);
     double cuadrado = perimetro(4, 2.2);
 
-    unsigned int numLados = 5;
+    unsigned numLados = 5;
     double longitud = 3.25;
     double pentagono = perimetro(numLados, longitud);
 

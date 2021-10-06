@@ -24,8 +24,8 @@ int main() {
     cout << "¿Qué tabla desea escribir (" << FIN << " para acabar)?: ";
 
     // Asigna a «multiplicando» el primer valor entero escrito por el usuario
-    int multiplicando;
-    cin  >>  multiplicando;
+    unsigned multiplicando;
+    cin >> multiplicando;
 
     // Itera hasta que el usuario responda con un valor nulo
     while (multiplicando != FIN) {
@@ -34,7 +34,7 @@ int main() {
         cout << "LA TABLA DEL " << multiplicando << endl;
 
         // Escribe las 11 líneas de la tabla de multiplicar del «multiplicando»
-        for (unsigned int i = 0; i <= 10; ++i) {
+        for (unsigned i = 0; i <= 10; ++i) {
             cout << setw(3) << multiplicando
                  << " x " << setw(2) << i
                  << " = " << setw(3) << multiplicando * i
