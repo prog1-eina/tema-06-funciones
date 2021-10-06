@@ -1,20 +1,18 @@
-/*
+/*******************************************************************************
  * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre
- * Última revisión: 9 de octubre de 2020
+ * Última revisión: 6 de octubre de 2021
  * Resumen: Ejemplo de un programa que define una función y realiza varias 
  *          invocaciones a la misma.
- */
+ ******************************************************************************/
 #include <iostream>
 using namespace std;
 
 /*
- * Dado un polígono regular con un número de lados
- * igual al valor del parámetro «numLados» de
- * longitud igual al valor del parámetro «longitud»,
- * devuelve el perímetro de dicho polígono regular. 
- * «numLados» tiene que ser mayor o igual que 3 y
- * «longitud» mayor que 0.0.
+ * Dado un polígono regular con un número de lados igual al valor del parámetro 
+ * «numLados» de longitud igual al valor del parámetro «longitud», devuelve el 
+ * perímetro de dicho polígono regular. 
+ * «numLados» tiene que ser mayor o igual que 3 y «longitud» mayor que 0.0.
  */
 double perimetro(unsigned numLados, double longitud) {
     return numLados * longitud;
@@ -22,7 +20,7 @@ double perimetro(unsigned numLados, double longitud) {
 
 
 /*
- * Programa que realiza varias invocaciones a la función «numEscaques».
+ * Programa que realiza varias invocaciones a la función «perimetro».
  */
 int main() {
     double triangulo = perimetro(3, 1.5);

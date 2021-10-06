@@ -1,13 +1,13 @@
-/*
+/*******************************************************************************
  * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 9 de octubre de 2020
+ * Última revisión: 6 de octubre de 2021
  * Resumen: Programa interactivo que presenta por pantalla las tablas de 
  *          multiplicar seleccionadas por el usuario.   
  *          Versión monolítica (todo el código está en la función main).
  *          Es una mejor solución la presentada en el fichero
  *          «3-tablas-modular.cpp».
- */
+ ******************************************************************************/
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -16,8 +16,9 @@ const int FIN = 0;
 
 
 /*
- * Programa que pregunta reiteradamente al usuario qué tabla de multiplicar desea escribir y la escribe 
- * a continuación, salvo cuando el usuario responde con un 0, en cuyo caso el programa termina.
+ * Programa que pregunta reiteradamente al usuario qué tabla de multiplicar
+ * desea escribir y la escribe a continuación, salvo cuando el usuario responde 
+ * con un 0, en cuyo caso el programa termina.
  */
 int main() {
     // Plantea la primera pregunta al usuario

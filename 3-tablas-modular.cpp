@@ -1,12 +1,12 @@
-/*
+/*******************************************************************************
  * Curso de Programación 1. Tema 5
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 7 de octubre de 2019
+ * Última revisión: 6 de octubre de 2021
  * Resumen: Programa interactivo que presenta por pantalla las tablas de
  *          multiplicar seleccionadas por el usuario.   
  *          Versión modular (el código de la función main se apoya en una
- *          función o procedimiento auxiliar denomiado «presentarTabla»).
- */
+ *          función o procedimiento auxiliar denominado «presentarTabla»).
+ ******************************************************************************/
 #include <iostream>
 #include <iomanip>
 using namespace std;
