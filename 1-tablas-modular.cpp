@@ -1,17 +1,17 @@
 /*******************************************************************************
- * Curso de Programación 1. Tema 5
+ * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 6 de octubre de 2021
+ * Última revisión: 5 de octubre de 2022
  * Resumen: Programa interactivo que presenta por pantalla las tablas de
  *          multiplicar seleccionadas por el usuario.   
- *          Versión modular (el código de la función main se apoya en una
- *          función o procedimiento auxiliar denominado «presentarTabla»).
+ *          Versión modular (el código de la función main se apoya en un
+ *          procedimiento auxiliar denominado «presentarTabla»).
  ******************************************************************************/
 #include <iostream>
 #include <iomanip>
 using namespace std;
 
-const int FIN = 0;
+const unsigned FIN = 0;
 
 /*
  *  Escribe en la pantalla la tabla de multiplicar del «n»
