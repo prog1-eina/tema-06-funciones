@@ -11,7 +11,7 @@ using namespace std;
 
 /*
  *  Pre:  ---
- *  Post: Ha devuelto true si y solo si «n» es un número primo.
+ *  Post: Devuelve true si y solo si «n» es un número primo.
  */
 bool esPrimo(unsigned n) {
     if (n == 2) {

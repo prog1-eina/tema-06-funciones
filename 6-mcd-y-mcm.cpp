@@ -25,12 +25,12 @@ unsigned absoluto(int a) {
 
 /*
  *  Pre: a ≠ 0 o b ≠ 0
- *  Post: Ha devuelto el máximo común divisor de <a> y <b>.
+ *  Post: Devuelve máximo común divisor de «a» y «b».
  */
 unsigned mcd(unsigned a, unsigned b) {
     // Algoritmo de Euclides para el cálculo del mcd
     while (b != 0) {
-        int resto = a % b;
+        unsigned resto = a % b;
         a = b;
         b = resto;
     }
@@ -41,7 +41,7 @@ unsigned mcd(unsigned a, unsigned b) {
 
 /*
  *  Pre: a ≠ 0 o b ≠ 0
- *  Post: Ha devuelto el mínimo común múltiplo de «a» y «b».
+ *  Post: Devuelve el mínimo común múltiplo de «a» y «b».
  */
 unsigned mcm(unsigned a, unsigned b) {
     // El orden de las operaciones NO minimiza la posibilidad de desbordamiento
