@@ -34,7 +34,6 @@ unsigned mcd(unsigned a, unsigned b) {
         a = b;
         b = resto;
     }
-    
     return a;
 }
 
