@@ -19,8 +19,7 @@ bool esPrimo(unsigned n) {
     }
     else if (n < 2 || n % 2 == 0) {
         return false;                   // «n» es menor que 2 o par mayor que 2.
-    }
-    else {
+    } else {
         // Se buscan posibles divisores impares de «n» a partir del 3:
 
         // «divisor» indica el siguiente impar candidato a dividir a «n».

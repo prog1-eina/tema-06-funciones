@@ -16,8 +16,7 @@ using namespace std;
 unsigned absoluto(int a) {
     if (a >= 0) {
         return a;
-    }
-    else {
+    } else {
         return -a;
     }
 }
@@ -61,8 +60,7 @@ int main() {
     if (numero1 == 0 && numero2 == 0) {
         cout << "Ambos números no pueden ser 0 simultáneamente." << endl;
         return 1;
-    }
-    else {
+    } else {
         numero1 = absoluto(numero1);
         numero2 = absoluto(numero2);
         cout << "Máximo común divisor: "  << mcd(numero1, numero2) << endl;

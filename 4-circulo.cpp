@@ -15,8 +15,7 @@ int main() {
         cout << "El área de un círculo de radio " << r << " es " 
              << M_PI * r * r << endl;
         return 0;
-    }
-    else {
+    } else {
         cout << "El valor del radio tiene que ser positivo." << endl;
         return 1;
     }
