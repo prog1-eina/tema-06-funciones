@@ -9,11 +9,11 @@
 using namespace std;
 
 /*
- * Dado un polígono regular con un número de lados igual al valor del parámetro 
- * «numLados» de longitud igual al valor del parámetro «longitud», devuelve el 
- * perímetro de dicho polígono regular. 
- * «numLados» tiene que ser mayor o igual que 3 y «longitud» mayor que 0.0.
- */
+ * Dado un polígono regular con un número de lados igual al valor del parámetro 
+ * «numLados» de longitud igual al valor del parámetro «longitud», devuelve el 
+ * perímetro de dicho polígono regular. 
+ * «numLados» tiene que ser mayor o igual que 3 y «longitud» mayor que 0.0.
+ */
 double perimetro(unsigned numLados, double longitud) {
     return numLados * longitud;
 }
