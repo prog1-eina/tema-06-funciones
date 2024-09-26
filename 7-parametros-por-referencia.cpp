@@ -13,7 +13,7 @@ using namespace std;
  * Pre:  uno = X0 y otro = Y0
  * Post: uno = Y0 y otro = X0
  */
-void intercambiar(int& uno, int& otro) {
+void intercambiar(int &uno, int &otro) {
 	int aux = uno;
 	uno = otro;
 	otro = aux;
