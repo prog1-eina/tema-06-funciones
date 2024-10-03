@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Curso de Programación 1. Tema 4
+ * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 2 de octubre de 2020
  * Resumen: Ejemplo de un programa que utiliza composición iterativa para 
