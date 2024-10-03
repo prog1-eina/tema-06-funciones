@@ -23,7 +23,7 @@ unsigned absoluto(int a) {
 
 
 /*
- *  Pre: a ≠ 0 o b ≠ 0
+ *  Pre: a ≠ 0 ∨ b ≠ 0
  *  Post: Devuelve máximo común divisor de «a» y «b».
  */
 unsigned mcd(unsigned a, unsigned b) {
@@ -38,7 +38,7 @@ unsigned mcd(unsigned a, unsigned b) {
 
 
 /*
- *  Pre: a ≠ 0 o b ≠ 0
+ *  Pre: a ≠ 0 ∨ b ≠ 0
  *  Post: Devuelve el mínimo común múltiplo de «a» y «b».
  */
 unsigned mcm(unsigned a, unsigned b) {
