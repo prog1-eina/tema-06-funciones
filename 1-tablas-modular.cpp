@@ -1,4 +1,4 @@
-/*******************************************************************************
+/******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 5 de octubre de 2022
@@ -6,7 +6,7 @@
  *          multiplicar seleccionadas por el usuario.   
  *          Versión modular (el código de la función main se apoya en un
  *          procedimiento auxiliar denominado «presentarTabla»).
- ******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -55,13 +55,15 @@ int main() {
 
     // Itera hasta que el usuario responda con un valor nulo
     while (multiplicando != FIN) {
-        // Presenta la tabla de multiplicar del último dato escrito por el usuario.
+        // Presenta la tabla de multiplicar del último dato escrito por el
+        // usuario.
         presentarTabla(multiplicando);
 
         // Plantea una nueva pregunta al usuario
-        cout << endl << "¿Qué tabla desea escribir (" << FIN << " para acabar)?: ";
+        cout << endl << "¿Qué tabla desea escribir (" << FIN
+             << " para acabar)?: ";
 
-        // Asigna a «multiplicando» el nuevo valor entero escrito por el usuario
+        // Asigna a «multiplicando» el nuevo valor entero dado por el usuario.
         cin >> multiplicando;
     }
 

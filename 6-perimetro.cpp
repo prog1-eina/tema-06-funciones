@@ -1,15 +1,15 @@
-/*******************************************************************************
+/******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre
  * Última revisión: 6 de octubre de 2021
  * Resumen: Ejemplo de un programa que define una función y realiza varias 
  *          invocaciones a la misma.
- ******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 using namespace std;
 
 /*
- * Dado un polígono regular con un número de lados igual al valor del parámetro 
+ * Dado un polígono regular con un número de lados igual al valor del parámetro
  * «numLados» de longitud igual al valor del parámetro «longitud», devuelve el 
  * perímetro de dicho polígono regular. 
  * «numLados» tiene que ser mayor o igual que 3 y «longitud» mayor que 0.0.

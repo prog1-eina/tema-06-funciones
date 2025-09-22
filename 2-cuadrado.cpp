@@ -1,10 +1,10 @@
-/*******************************************************************************
+/******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre
  * Última revisión: 3 de octubre de 2024
  * Resumen: Programa que define y utiliza una función que eleva un número al
  *          cuadrado en diferentes contextos
- ******************************************************************************/
+ *****************************************************************************/
 #include <cmath>
 #include <iostream>
 using namespace std;

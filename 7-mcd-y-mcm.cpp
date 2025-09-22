@@ -1,11 +1,11 @@
-/*******************************************************************************
+/******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
  * Última revisión: 13 de octubre de 2022
- * Resumen: Programa que solicita al usuario dos números enteros y escribe en la
- *          pantalla su máximo común divisor y su mínimo común múltiplo,
+ * Resumen: Programa que solicita al usuario dos números enteros y escribe en
+ *          la pantalla su máximo común divisor y su mínimo común múltiplo,
  *          ayudándose de dos funciones.
- ******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 using namespace std;
 
@@ -49,8 +49,8 @@ unsigned mcm(unsigned a, unsigned b) {
 
 
 /*
- * Programa que solicita al usuario dos números enteros y escribe en la pantalla
- * su máximo común divisor y su mínimo común múltiplo.
+ * Programa que solicita al usuario dos números enteros y escribe en la
+ * pantalla su máximo común divisor y su mínimo común múltiplo.
  */
 int main() {
     cout << "Escriba dos enteros: ";
