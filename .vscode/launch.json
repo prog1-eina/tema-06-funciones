@@ -13,13 +13,11 @@
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true,
             "MIMode": "gdb",
             "osx": {
-                "type": "lldb",
                 "MIMode": "lldb",
                 "args": ["-arg1", "-arg2"],
-                "console": "externalTerminal",
+                "externalConsole": true,
             },
             "setupCommands": [
                 {
