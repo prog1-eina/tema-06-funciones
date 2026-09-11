@@ -1,7 +1,6 @@
 /******************************************************************************
  * Curso de Programación 1. Tema 6
  * Autores: Miguel Ángel Latre y Javier Martínez
- * Última revisión: 5 de octubre de 2022
  * Resumen: Programa interactivo que presenta por pantalla las tablas de
  *          multiplicar seleccionadas por el usuario.   
  *          Versión modular (el código de la función main se apoya en un
